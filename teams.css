@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+h1 {
+  color: rgb(53, 144, 183);
+  font-size: 40px;
+  font-weight: 600;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+  width: 80%;
+}
+.team-card {
+  background: beige;
+  width: 250px;
+  padding: 25px 20px 30px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #121314;
+}
